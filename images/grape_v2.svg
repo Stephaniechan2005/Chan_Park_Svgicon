@@ -40,6 +40,38 @@
       .cls-8, .cls-9, .cls-10 {
         fill-rule: evenodd;
       }
+<!-- add my custome css-->
+      #grape:hover #top_leaf{
+        fill:#424242;
+        transform: rotate(3deg);
+      }
+
+      #grape:hover #root{
+        fill:#5B5B5B;
+      }
+      #grape:hover #leaf_base{
+        fill:#7E7E7E;
+        transform: rotate(20deg) translate(12px, -15%);
+      }
+      #grape:hover #leaf_top{
+        fill:#A9A9A9;
+        transform: rotate(20deg) translate(12px, -15%);
+      }
+      
+      #leaf_base{
+        transition: all 0.5s ease-in-out;
+        transform-origin: center;
+      }
+
+      #top_leaf{
+        transition: all 0.5s ease-in-out;
+        transform-origin: center;
+      }
+
+      #leaf_top{
+        transition: all 0.5s ease-in-out;
+        transform-origin: center;
+      }
     </style>
   </defs>
   <path id="leaf_base" data-name="leaf base" class="cls-4" d="M158.1,172.5c-31.8-33.4-127.2-41.8-137.7-25.3-8.9,14,47.2,81,111.5,88.9M120.1,212C74.2,208-2.9,264.9,0,284.1c2.6,16.4,88.9,29.5,142.4-7"/>

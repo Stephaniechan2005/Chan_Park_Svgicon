@@ -48,6 +48,39 @@
       .cls-9 {
         fill: #6b2b12;
       }
+      <!-- add my custome css-->
+      
+       #Apple:hover .cls-4{
+        fill: #8e451f;
+      }
+
+      #Apple:hover .cls-6{
+        fill: #6b2b12;
+      }
+
+      #Apple:hover .cls-5{
+        fill: #fff;
+      }
+
+      #Apple:hover #leaf_top{
+        fill: #7E7E7E;
+        transform:rotate(360deg)
+      }
+      #leaf_top{
+        transition: all 0.5s ease-in-out;
+        transform-origin: center;
+      }
+      
+
+      #Apple:hover #leaf_base{
+        fill: #A9A9A9;
+        transform:rotate(360deg)
+
+      }
+      #leaf_base{
+        transition: all 0.5s ease-in-out;
+        transform-origin: center;
+      }
     </style>
     <clipPath id="clippath">
       <rect class="cls-3" y="70.6" width="451" height="429.3"/>
