@@ -11,11 +11,11 @@
   }
 
   #peach:hover #leaf1 {
-    fill: grey;
+    fill: #7E7E7E;
   }
 
    #peach:hover #leaf2 {
-    fill: grey;
+    fill: #A9A9A9;
   }
 
   #peach:hover #glow_dot {
