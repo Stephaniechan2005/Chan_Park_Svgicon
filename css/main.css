@@ -15,9 +15,7 @@ object {
 header,
 section {
   text-align: center;
-  ;
 }
-
 
 /* If we have to make new <div> for other elements except for 
    <div> boxes for svgs icons, this css should be edited.
@@ -29,12 +27,4 @@ div {
   display: inline-block;
   text-align: center;
   margin-right: 50px;
-}
-
-#grape_box {
-  background-color: black;
-}
-
-#apple_box {
-  background-color: black;
 }
