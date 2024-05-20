@@ -1,7 +1,30 @@
-#grape_box {
-  background-color: black;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-#apple_box {
-  background-color: black;
+.hidden {
+  display: none;
+}
+
+object {
+  width: 200px;
+  height: 200px;
+}
+
+header,
+section {
+  text-align: center;
+}
+
+/* If we have to make new <div> for other elements except for 
+   <div> boxes for svgs icons, this css should be edited.
+*/
+
+div {
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 50px;
 }
