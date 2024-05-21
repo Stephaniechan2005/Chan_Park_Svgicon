@@ -12,6 +12,12 @@ object {
   height: 200px;
 }
 
+/* peach & orange svg icons were little too small so, I made them bigger. */
+.bigger {
+  width: 350px;
+  height: 350px;
+}
+
 header,
 section {
   text-align: center;
