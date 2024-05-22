@@ -6,21 +6,17 @@
   font-style: normal;
 }
 
-<<<<<<< Updated upstream
-=======
 p {
   margin-bottom: 20px;
-
 }
 
->>>>>>> Stashed changes
 .hidden {
   display: none;
 }
 
 object {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
 }
 
 /* peach & orange svg icons were little too small so, I made them bigger. */
@@ -32,26 +28,16 @@ object {
 header,
 section {
   text-align: center;
-  ;
 }
-
 
 /* If we have to make new <div> for other elements except for 
    <div> boxes for svgs icons, this css should be edited.
 */
 
 div {
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   display: inline-block;
   text-align: center;
   margin-right: 50px;
-}
-
-#grape_box {
-  background-color: black;
-}
-
-#apple_box {
-  background-color: black;
 }
