@@ -1,12 +1,48 @@
-<svg width="462" height="747" viewBox="0 0 462 747" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg id="pineapple" width="462" height="747" viewBox="0 0 462 747" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+    #pineapple:hover #glow1 {
+        fill: #fff;
+    }
+
+    #pineapple:hover #glow2{
+        fill: #fff;
+    }
+
+     #pineapple:hover #glow3{
+        fill: #fff;
+    }
+
+     #pineapple:hover #glow4{
+        fill: #fff;
+    }
+
+    #pineapple:hover #grass {
+        fill: grey;
+    }
+
+    #pineapple:hover #grass2 {
+        fill: grey;
+    }
+
+    #pineapple:hover #grass3 {
+        fill: grey;
+    }
+
+    #pineapple:hover #pineapple-body {
+        transform: rotateX(15deg) rotateY(15deg);
+    }
+
+
+</style>
+
 <g id="Group 7">
 <g id="Group 3">
 <g id="Polygon 1">
-<path d="M224.504 0L291.62 265.25H157.386L224.504 0Z" fill="#017405"/>
+<path id="grass" d="M224.504 0L291.62 265.25H157.386L224.504 0Z" fill="#017405"/>
 <path d="M333.502 52L358.738 299H224.504L333.502 52Z" fill="#017405"/>
 <path d="M123.502 52L224.502 299H90.2682L123.502 52Z" fill="#017405"/>
-<path d="M440.002 151L358.736 299H224.502L440.002 151Z" fill="#017405"/>
-<path d="M10 151L224.5 299H90.2661L10 151Z" fill="#017405"/>
+<path id="grass2" d="M440.002 151L358.736 299H224.502L440.002 151Z" fill="#017405"/>
+<path id="grass3" d="M10 151L224.5 299H90.2661L10 151Z" fill="#017405"/>
 </g>
 </g>
 <g id="Group 5">
