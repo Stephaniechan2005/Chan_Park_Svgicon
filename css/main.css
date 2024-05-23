@@ -6,6 +6,7 @@
   font-style: normal;
   text-align: center;
   box-sizing: border-box;
+  list-style: none;
 }
 
 body {
@@ -28,6 +29,10 @@ h2 {
 header {
   text-align: center;
   padding: 20px;
+}
+
+li::first-letter {
+  color: #0041c1;
 }
 
 main {
@@ -66,9 +71,6 @@ object {
 }
 
 .box {
-  background-color: powderblue;
-  color: #1b1b1b;
-  border-radius: 5px;
   text-align: center;
   padding: 10px;
   margin-bottom: 10px;
