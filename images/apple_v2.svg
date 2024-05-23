@@ -82,6 +82,17 @@
         transform-origin: center;
       }
     </style>
+
+    <script>
+  const apple = document.querySelector("#Apple");
+  apple.addEventListener("click", logTheId);
+
+	function logTheId() {
+ 	 console.log(this.id+ " Flavour : Crisp and slightly sweet, with hints of floral notes.");
+	}
+
+
+</script>
     <clipPath id="clippath">
       <rect class="cls-3" y="70.6" width="451" height="429.3"/>
     </clipPath>
