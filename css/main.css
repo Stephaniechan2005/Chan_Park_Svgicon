@@ -4,7 +4,6 @@
   font-family: "Poetsen One", sans-serif;
   font-weight: 400;
   font-style: normal;
-  text-align: center;
   box-sizing: border-box;
   list-style: none;
 }
@@ -41,7 +40,14 @@ main {
 
 section {
   margin-bottom: 40px;
+  margin: 0 auto;
+  text-align: left;
 }
+
+#text-section {
+  width: 1200px;
+}
+
 
 object {
   width: 300px;
