@@ -12,6 +12,10 @@ body {
   line-height: 1.6;
 }
 
+section {
+  font-size: 25px;
+}
+
 p {
   margin-bottom: 20px;
 }
@@ -21,7 +25,7 @@ p {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 34px;
   color: #0041c1;
 }
 
@@ -38,16 +42,9 @@ main {
   padding: 20px;
 }
 
-section {
-  margin-bottom: 40px;
-  margin: 0 auto;
-  text-align: left;
-}
-
 #text-section {
-  width: 1200px;
+  width: 100%;
 }
-
 
 object {
   width: 300px;
@@ -76,6 +73,16 @@ object {
   margin: 0 auto;
 }
 
+.grid-con-text {
+  display: grid;
+  gap: 20px;
+  max-width: 1300px;
+  padding: 0 20px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+
+}
+
 .box {
   text-align: center;
   padding: 10px;
@@ -88,16 +95,86 @@ object {
   .grid-con {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .grid-con-text {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .title {
+    font-size: 20px;
+    color: purple;
+  }
+
+  object {
+    width: 200px;
+    height: 200px;
+  }
+
+  .bigger {
+    width: 250px;
+    height: 250px;
+  }
+
+  section {
+    font-size: 16px;
+  }
+
+  li::first-letter {
+    color: purple;
+  }
+
+  h2 {
+    font-size: 26px;
+    color: purple;
+  }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .grid-con {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .grid-con-text {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .title {
+    font-size: 25px;
+    color: orange;
+  }
+
+  object {
+    width: 250px;
+    height: 250px;
+  }
+
+  .bigger {
+    width: 300px;
+    height: 300px;
+  }
+
+  section {
+    font-size: 20px;
+  }
+
+  li::first-letter {
+    color: orange;
+  }
+
+  h2 {
+    font-size: 30px;
+    color: orange;
+  }
+
 }
 
 @media screen and (min-width: 1200px) {
   .grid-con {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid-con-text {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
