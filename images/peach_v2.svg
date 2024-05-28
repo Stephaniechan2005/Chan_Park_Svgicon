@@ -1,39 +1,49 @@
-<svg id="peach" width="662" height="698" viewBox="0 0 662 698" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg id="Peach" width="662" height="698" viewBox="0 0 662 698" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Group 1">
 
 <style>
-   #peach {
+   #Peach {
     transition: transform 0.5s ease-in-out;
   }
 
-  #peach:hover {
+  #Peach:hover {
     transform: scale(1.1);
   }
 
-  #peach:hover #leaf1 {
+  #Peach:hover #leaf1 {
     fill: #7E7E7E;
   }
 
-   #peach:hover #leaf2 {
+   #Peach:hover #leaf2 {
     fill: #A9A9A9;
   }
 
-  #peach:hover #glow-dot {
+  #Peach:hover #glow-dot {
     fill: #fff;
   }
 
-  #peach:hover #glow {
+  #Peach:hover #glow {
     fill: #fff;
   }
 
-  #peach:hover #peach-body {
+  #Peach:hover #peach-body {
     fill: #ae6a73
    }
 
-  #peach:hover #peach-center {
+  #Peach:hover #peach-center {
     fill: #70252e;
    }
 </style>
+<script>
+  const peach = document.querySelector("#Peach");
+  peach.addEventListener("click", logTheId);
+
+	function logTheId() {
+ 	 console.log(this.id+ " Flavour : Sweet and tangy, with a bright citrus profile.");
+	}
+
+
+</script>
 <path id="leaf1" d="M516.65 147.12C476.541 183.871 417.268 190.608 382.32 185.771C380.331 150.295 388.715 91.4428 428.825 54.6922C468.934 17.9417 513.155 28.8135 531.624 48.9699C550.093 69.1264 556.759 110.37 516.65 147.12Z" fill="#02B309"/>
 <path id="leaf2" d="M374.994 81.2795C394.664 121.83 392.811 161.096 379.619 186.151C352.277 178.049 319.895 150.393 307.186 109.64C294.477 68.888 293.247 36.577 313.514 28.1004C333.781 19.6237 355.324 40.7288 374.994 81.2795Z" fill="#008C06"/>
 <path id="Rectangle 16" d="M368.774 139L409.49 143.818L397.268 183.281L370.455 180.108L368.774 139Z" fill="#843F21"/>
