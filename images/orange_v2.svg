@@ -1,13 +1,13 @@
-<svg id="orange" width="564" height="662" viewBox="0 0 564 662" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg id="Orange" width="564" height="662" viewBox="0 0 564 662" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Group 1">
 
 <style>
-    #orange:hover #leaf-top {
+    #Orange:hover #leaf-top {
         fill: #A9A9A9;
         transform: rotate(5deg);
     }
 
-    #orange:hover #leaf-bottom {
+    #Orange:hover #leaf-bottom {
         fill: #7E7E7E;
         transform: rotate(5deg);
     }
@@ -16,11 +16,11 @@
         transition: all .3s ease-in-out;
     }
 
-    #orange:hover #glow {
+    #Orange:hover #glow {
         fill: #fff;
     }
 
-    #orange:hover #glow-dot {
+    #Orange:hover #glow-dot {
         fill: #fff;
     }
 
@@ -28,11 +28,11 @@
         transition: all .3s ease-in-out;
     }
 
-    #orange:hover #tap {
+    #Orange:hover #tap {
         transform: rotateX(15deg) rotateY(15deg);
     }
 
-     #orange:hover #tap-top {
+     #Orange:hover #tap-top {
         transform: rotateX(15deg) rotateY(15deg);
     }
 
@@ -40,6 +40,16 @@
         transition: all .3s ease-in-out;
     }
 </style>
+<script>
+  const orange = document.querySelector("#Orange");
+  orange.addEventListener("click", logTheId);
+
+	function logTheId() {
+ 	 console.log(this.id+ " Flavour : Sweet and tangy, with a bright citrus profile.");
+	}
+
+
+</script>
 <ellipse id="Ellipse 8" cx="262" cy="399.898" rx="262" ry="261.5" fill="#FF7A00"/>
 <ellipse id="Ellipse 9" cx="247" cy="381.898" rx="247" ry="244.5" fill="#FF983A"/>
 <path id="glow" d="M119.792 250.547C91.598 277.799 75.5435 310.929 67.8667 302.987C60.1898 295.045 69.9131 253.248 98.1068 225.995C126.301 198.743 162.257 195.894 169.934 203.835C177.611 211.777 147.985 223.294 119.792 250.547Z" fill="#FCCEA3"/>

@@ -1,40 +1,49 @@
-<svg id="pineapple" width="462" height="747" viewBox="0 0 462 747" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg id="Pineapple" width="462" height="747" viewBox="0 0 462 747" fill="none" xmlns="http://www.w3.org/2000/svg">
 <style>
-    #pineapple:hover #glow1 {
+    #Pineapple:hover #glow1 {
         fill: #fff;
     }
 
-    #pineapple:hover #glow2{
+    #Pineapple:hover #glow2{
         fill: #fff;
     }
 
-     #pineapple:hover #glow3{
+     #Pineapple:hover #glow3{
         fill: #fff;
     }
 
-     #pineapple:hover #glow4{
+     #Pineapple:hover #glow4{
         fill: #fff;
     }
 
-    #pineapple:hover #grass {
+    #Pineapple:hover #grass {
         fill: grey;
     }
 
-    #pineapple:hover #grass2 {
+    #Pineapple:hover #grass2 {
         fill: grey;
     }
 
-    #pineapple:hover #grass3 {
+    #Pineapple:hover #grass3 {
         fill: grey;
     }
 
-    #pineapple:hover #pineapple-body {
+    #Pineapple:hover #pineapple-body {
         transform: rotateX(15deg) rotateY(15deg);
     }
 
 
 </style>
+<script>
+  const pineapple = document.querySelector("#Pineapple");
+  pineapple.addEventListener("click", logTheId);
 
+	function logTheId() {
+ 	 console.log(this.id+ " Flavour : Juicy and tropical, with a perfect balance of sweetness and acidity.");
+	}
+
+
+</script>
 <g id="Group 7">
 <g id="Group 3">
 <g id="Polygon 1">
